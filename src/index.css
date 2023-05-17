@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.task-done .fa-check {
+  @apply bg-sky-500;
+}
+.task-done .fa-pen {
+  display: none;
+}
+.edit {
+  display: none;
+}
+.edit.onn {
+  display: flex;
+}
+.add.off {
+  display: none;
+}
